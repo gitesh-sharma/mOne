@@ -1,0 +1,21 @@
+{
+  "name": "mone",
+  "version": "1.0.0",
+  "private": true,
+  "description": "mOne - Merahi Village farming and community app",
+  "scripts": {
+    "android:add": "npx cap add android",
+    "android:sync": "npx cap sync android",
+    "android:open": "npx cap open android",
+    "android:run": "npx cap run android",
+    "serve": "npx serve www"
+  },
+  "dependencies": {
+    "@capacitor/core": "^7.4.3"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^7.4.3",
+    "@capacitor/android": "^7.4.3",
+    "typescript": "^5.9.2"
+  }
+}
